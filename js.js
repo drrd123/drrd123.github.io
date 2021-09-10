@@ -7,7 +7,7 @@ function f1(){
     window.alert("你终于承认了！ ：D")
     if (b==3){
     document.getElementById("a2").innerHTML="tips：你静静地等十秒......"
-    setInterval(function(){document.getElementById("b4").style.display="block"},1000)
+    setInterval(function(){document.getElementById("b4").style.display="block"},10000)
     }  
 }
 function f11(){
